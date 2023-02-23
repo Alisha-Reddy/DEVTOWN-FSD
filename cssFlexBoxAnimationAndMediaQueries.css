@@ -1,0 +1,23 @@
+.parent{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row-reverse;
+    gap:10px;
+    justify-content:space-evenly;
+    flex-wrap:wrap-reverse;
+}
+
+.child{
+    height: 100px;
+    width:10%;
+    background-color: bisque;
+    border: 2px solid whitesmoke;
+    flex: 5;
+}
+.child4, .child5{
+    height: 100px;
+    width:10%;
+    background-color: bisque;
+    border: 2px solid whitesmoke;
+    flex: 2;
+}
